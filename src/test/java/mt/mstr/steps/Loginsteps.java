@@ -35,7 +35,7 @@ public class Loginsteps
     		System.setProperty("webdriver.ie.driver", "F:\\Selenium Setup\\setup1\\4052019\\IEDriverServer_x64_3.14.0 (12)\\IEDriverServer.exe");
     		Config.driver=new InternetExplorerDriver();
     		System.out.println("IE browser is opened successfully");
-    		System.out.println("Git updated");
+    		System.out.println("Git updated in IE");
    
     	}else
     	{
