@@ -23,7 +23,7 @@ Background: User access login page of Mercury Tours Application
             When user clicks on Sign off link
             Then User access Sign on page
             
-  
+            Then User must closebrowser
   
   
   
