@@ -28,6 +28,7 @@ public class Loginsteps
     		Config.driver =new ChromeDriver();
     		System.out.println("Chrome browser is opened successfully");
     		System.out.println("Git updated in chrome");
+    		System.out.println("git changes==========");
     	
     		
     	}else if(browsernm.equalsIgnoreCase("ie"))
