@@ -27,11 +27,14 @@ public class Loginsteps
     		System.setProperty("webdriver.chrome.driver","F:\\Selenium Setup\\setup1\\4052019\\chromedriver_win32 (22)\\chromedriver.exe");
     		Config.driver =new ChromeDriver();
     		System.out.println("Chrome browser is opened successfully");
+    		System.out.println("chrome is updated");
+    		
     	}else if(browsernm.equalsIgnoreCase("ie"))
     	{
     		System.setProperty("webdriver.ie.driver", "F:\\Selenium Setup\\setup1\\4052019\\IEDriverServer_x64_3.14.0 (12)\\IEDriverServer.exe");
     		Config.driver=new InternetExplorerDriver();
     		System.out.println("IE browser is opened successfully");
+    		System.out.println("IE is updated");
     	}else
     	{
     		System.setProperty("webdriver.gecko.driver","F:\\Selenium Setup\\setup1\\4052019\\geckodriver-v0.24.0-win64\\geckodriver.exe");
