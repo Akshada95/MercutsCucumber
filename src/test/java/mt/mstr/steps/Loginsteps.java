@@ -36,7 +36,7 @@ public class Loginsteps
     		Config.driver=new InternetExplorerDriver();
     		System.out.println("IE browser is opened successfully");
     		System.out.println("Git updated in IE browser");
-    		System.out.println("Git IE");
+    		System.out.println("Git In Ie");
    
     	}else
     	{
