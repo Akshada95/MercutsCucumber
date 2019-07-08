@@ -27,7 +27,7 @@ public class Loginsteps
     		System.setProperty("webdriver.chrome.driver","F:\\Selenium Setup\\setup1\\4052019\\chromedriver_win32 (22)\\chromedriver.exe");
     		Config.driver =new ChromeDriver();
     		System.out.println("Chrome browser is opened successfully");
-    		System.out.println("Git updated");
+    		System.out.println("Git updated in chrome");
     	
     		
     	}else if(browsernm.equalsIgnoreCase("ie"))
